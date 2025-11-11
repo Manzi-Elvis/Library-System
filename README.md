@@ -56,7 +56,7 @@ A full-stack **Library Management System** built with **Node.js**, **Express**, 
 
 ```bash
 git clone https://github.com/Manzi-Elvis/Library-System.git
-cd library-management-system
+cd Library-System
 ```
 
 ### 2️⃣ Setup Backend
@@ -66,7 +66,7 @@ cd server
 npm install
 ```
 
-Create a `.env` file inside the backend folder and add:
+Create a `.env` file inside the server folder and add:
 
 ```env
 PORT=5000
@@ -129,7 +129,7 @@ Ensure the backend API is running on **[http://localhost:5000](http://localhost:
 
 ```
 project/
-  ├── backend/
+  ├── Server/
   │   ├── models/
   │   │   ├── User.js
   │   │   └── Book.js
@@ -140,7 +140,7 @@ project/
   │   │   └── auth.js
   │   ├── server.js
   │   └── .env
-  ├── frontend/
+  ├── Client/
   │   ├── src/
   │   │   ├── pages/
   │   │   ├── components/
